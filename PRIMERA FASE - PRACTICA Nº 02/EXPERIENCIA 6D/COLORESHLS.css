@@ -1,0 +1,24 @@
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.rojo {
+    color: hsl(0, 100%, 50%);
+}
+
+.verde {
+    color: hsl(120, 100%, 50%);
+}
+
+.azul {
+    color: hsl(240, 100%, 50%);
+}
+
+.amarillo {
+    color: hsl(60, 100%, 50%);
+}
+
+.naranja {
+    color: hsl(30, 100%, 50%);
+}
