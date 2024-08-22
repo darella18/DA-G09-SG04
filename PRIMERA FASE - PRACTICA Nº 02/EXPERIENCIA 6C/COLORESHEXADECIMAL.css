@@ -1,0 +1,24 @@
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.rojo {
+    color: #FF0000;
+}
+
+.verde {
+    color: #008000;
+}
+
+.azul {
+    color: #0000FF;
+}
+
+.amarillo {
+    color: #FFFF00;
+}
+
+.naranja {
+    color: #FFA500;
+}
