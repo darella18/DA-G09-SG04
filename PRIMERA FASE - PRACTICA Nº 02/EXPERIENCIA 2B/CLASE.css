@@ -1,0 +1,27 @@
+.titulo {
+    color: #cf1d26;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  .enlace {
+    text-decoration: none;
+    font-size: 16px;
+    color: #65aac4;
+  }
+  
+  .enlace:hover {
+    color: #7bb9e2;
+  }
+  
+  .seccion {
+    background-color: #f0d8b5;
+    padding: 20px;
+    border: 1px solid #898f80;
+  }
+  
+  .copyright {
+    color: #666666;
+    font-size: 14px;
+    text-align: center;
+  }

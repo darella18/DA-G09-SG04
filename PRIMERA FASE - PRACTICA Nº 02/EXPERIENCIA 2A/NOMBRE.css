@@ -1,0 +1,32 @@
+#titulo {
+  color: #4e09bd;
+  font-size: 36px;
+  text-align: center;
+}
+
+.enlace {
+  text-decoration: none;
+  color: #00698f;
+}
+
+.enlace:hover {
+  color: #0099ff;
+}
+
+#seccion1 {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border: 1px solid #dddddd;
+}
+
+#seccion2 {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #dddddd;
+}
+
+#copyright {
+  color: #666666;
+  font-size: 14px;
+  text-align: center;
+}
