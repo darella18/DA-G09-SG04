@@ -1,0 +1,80 @@
+/* Medidas absolutas */
+
+/* Longitud absoluta (px) */
+
+/* 1. Ancho y alto fijo */
+.fixed-size {
+  width: 200px;
+  height: 100px;
+  background-color: #f2f2f2;
+}
+
+/* 2. Margen fijo */
+.margin-fixed {
+  margin: 20px;
+  background-color: #cccccc;
+}
+
+/* 3. Paddings fijos */
+.padding-fixed {
+  padding: 10px 20px;
+  background-color: #00698f;
+}
+
+/* Longitud relativa (%)
+
+/* 1. Ancho relativo */
+.relative-width {
+  width: 50%;
+  background-color: #f2f2f2;
+}
+
+/* 2. Alto relativo */
+.relative-height {
+  height: 75%;
+  background-color: #cccccc;
+}
+
+/* 3. Margen relativo */
+.relative-margin {
+  margin: 10%;
+  background-color: #00698f;
+}
+
+/* Unidades de medida em */
+
+/* 1. Tamaño de fuente */
+.font-size-em {
+  font-size: 1.5em;
+}
+
+/* 2. Espaciado entre líneas */
+.line-spacing-em {
+  line-height: 1.2em;
+}
+
+/* 3. Ancho de borde */
+.border-width-em {
+  border-width: 0.5em;
+  border-style: solid;
+  border-color: #00698f;
+}
+
+/* Unidades de medida rem */
+
+/* 1. Tamaño de fuente */
+.font-size-rem {
+  font-size: 1.5rem;
+}
+
+/* 2. Espaciado entre líneas */
+.line-spacing-rem {
+  line-height: 1.2rem;
+}
+
+/* 3. Ancho de borde */
+.border-width-rem {
+  border-width: 0.5rem;
+  border-style: solid;
+  border-color: #00698f;
+}

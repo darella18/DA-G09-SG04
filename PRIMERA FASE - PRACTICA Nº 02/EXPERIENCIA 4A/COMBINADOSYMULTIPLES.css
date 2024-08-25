@@ -1,0 +1,50 @@
+/* Combinaciones */
+div p {
+  color: #00698f;
+}
+
+div > p {
+  font-size: 18px;
+}
+
+h2 + p {
+  font-style: italic;
+}
+
+h2 ~ p {
+  color: #0099ff;
+}
+
+input[type="text"] {
+  background-color: #f2f2f2;
+}
+
+.container .header {
+  background-color: #cccccc;
+}
+
+#header {
+  background-color: #00698f;
+}
+
+/* Casos múltiples */
+
+.header.footer {
+  background-color: #0099ff;
+}
+
+input[type="text"][required] {
+  border: 2px solid #00698f;
+}
+
+#header#footer {
+  background-color: #cccccc;
+}
+
+h1, h2, h3 {
+  color: #00698f;
+}
+
+div > p, div > span {
+  font-size: 18px;
+}

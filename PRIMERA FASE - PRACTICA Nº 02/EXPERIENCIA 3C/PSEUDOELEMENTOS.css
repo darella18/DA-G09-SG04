@@ -1,0 +1,33 @@
+/* 1. ::first-line */
+p::first-line {
+  font-size: 18px;
+  color: #00698f;
+}
+
+p::first-letter {
+  font-size: 24px;
+  color: #0099ff;
+}
+
+a::before {
+  content: "→ ";
+  color: #00698f;
+}
+
+a::after {
+  content: " ←";
+  color: #00698f;
+}
+
+::selection {
+  background-color: #f2f2f2;
+  color: #00698f;
+}
+
+input::placeholder {
+  color: #cccccc;
+}
+
+li::marker {
+  color: #0099ff;
+}

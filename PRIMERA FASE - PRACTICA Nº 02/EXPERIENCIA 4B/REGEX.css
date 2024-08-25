@@ -1,0 +1,19 @@
+input[name~="user"] {
+    background-color: #f2f2f2;
+  }
+  
+  a[href*="google"] {
+    color: #00698f;
+  }
+  
+  input[name^="pass"] {
+    border: 2px solid #00698f;
+  }
+  
+  p[class$="description"] {
+    font-size: 18px;
+  }
+  
+  a[href*="example" i] {
+    text-decoration: underline;
+  }

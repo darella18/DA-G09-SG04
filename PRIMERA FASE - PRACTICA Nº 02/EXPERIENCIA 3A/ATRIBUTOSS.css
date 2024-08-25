@@ -1,0 +1,27 @@
+a[href] {
+  text-decoration: none;
+  color: #00698f;
+}
+
+a[href*="https"] {
+  color: #0099ff;
+}
+
+[title] {
+  font-style: italic;
+}
+
+*[data-rol="admin"] {
+  background-color: #f2f2f2;
+  padding: 10px;
+  border: 1px solid #dddddd;
+}
+
+[lang="es"] {
+  font-size: 18px;
+  color: #333333;
+}
+
+[required] {
+  border: 1px solid #ff0000;
+}

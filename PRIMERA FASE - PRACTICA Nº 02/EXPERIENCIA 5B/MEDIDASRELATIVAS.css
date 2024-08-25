@@ -1,0 +1,61 @@
+/* Medidas Relativas */
+
+/* Porcentaje (%) */
+
+/* 1. Ancho relativo */
+.relative-width {
+  width: 50%;
+  background-color: #f2f2f2;
+}
+
+/* 2. Alto relativo */
+.relative-height {
+  height: 75%;
+  background-color: #cccccc;
+}
+
+/* 3. Margen relativo */
+.relative-margin {
+  margin: 10%;
+  background-color: #00698f;
+}
+
+/* Unidades de medida vw y vh */
+
+/* 1. Ancho relativo a la ventana */
+.vw-width {
+  width: 20vw;
+  background-color: #f2f2f2;
+}
+
+/* 2. Alto relativo a la ventana */
+.vh-height {
+  height: 30vh;
+  background-color: #cccccc;
+}
+
+/* 3. Margen relativo a la ventana */
+.vw-margin {
+  margin: 5vw;
+  background-color: #00698f;
+}
+
+/* Unidades de medida vmin y vmax */
+
+/* 1. Ancho relativo al menor valor entre vw y vh */
+.vmin-width {
+  width: 20vmin;
+  background-color: #f2f2f2;
+}
+
+/* 2. Alto relativo al mayor valor entre vw y vh */
+.vmax-height {
+  height: 30vmax;
+  background-color: #cccccc;
+}
+
+/* 3. Margen relativo al menor valor entre vw y vh */
+.vmin-margin {
+  margin: 5vmin;
+  background-color: #00698f;
+}

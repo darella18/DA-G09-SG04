@@ -1,0 +1,36 @@
+/* Estilos base (se aplicarán a todos los elementos) */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Ejemplo de herencia */
+h1, h2, h3 {
+  color: blue;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+a {
+  color: green;
+  text-decoration: none;
+}
+
+/* Ejemplo de cascada */
+.rojo {
+  color: red;
+}
+
+.grande {
+  font-size: 24px;
+}
+
+#miParrafo {
+  color: purple;
+  font-style: italic;
+}
