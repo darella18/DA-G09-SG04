@@ -1,0 +1,142 @@
+/* Estilos base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+header, footer {
+    background-color: #e6b1fc;
+    padding: 28px;
+    text-align: center;
+    color: #333;
+}
+
+header h1 {
+    font-size: 28px;
+    color: #333;
+}
+
+footer p {
+    font-size: 16px;
+    color: #666;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #222;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #d194f5;
+    color: #fff;
+}
+
+nav ul li a.active {
+    background-color: #d194f5;
+    color: white;
+}
+
+main {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Botones con animaciones */
+.btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #b57cdc;
+    color: white;
+    border: none;
+}
+
+.btn-primary:hover {
+    transform: scale(1.1);
+    background-color: #b380d6;
+}
+
+.btn-secondary {
+    background-color: #e0e0e0;
+    color: #333;
+    border: 1px solid #999;
+}
+
+.btn-secondary:hover {
+    transform: scale(1.05);
+    background-color: #e0e0e0;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* Media queries para adaptabilidad */
+@media (max-width: 768px) { /* Para pantallas pequeñas (móviles) */
+    header, main, footer {
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .featured-image {
+        width: 100%;
+    }
+
+    /* Ajustes adicionales para pantallas pequeñas, si es necesario */
+}
+
+@media (min-width: 769px) { /* Para pantallas medianas y grandes (tabletas y escritorios) */
+    /* Estilos específicos para pantallas más grandes */
+    .container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+    }
+}
